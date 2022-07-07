@@ -1,4 +1,5 @@
 function I=gausshermi(f,n)
+%Taken from Math works File-Exchange: https://www.mathworks.com/matlabcentral/fileexchange/8066-gauss-hermite
 
 %I=gausshermi(f,n)
 %Aproximates integral using Gauss-Hermite method 
@@ -19,5 +20,3 @@ end
 
 
 I=dot(C,G);
-
-

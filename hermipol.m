@@ -1,6 +1,6 @@
 function p=hermipol(n)
-
-k=2;
+%Taken from Math works File-Exchange: https://www.mathworks.com/matlabcentral/fileexchange/8066-gauss-hermite
+%calculate Hermite polynomials
 
 p(1,1)=1;
 p(2,1:2)=[2 0];

@@ -1,5 +1,5 @@
 function p=hermipol(n)
-%Taken from Math works File-Exchange: https://www.mathworks.com/matlabcentral/fileexchange/8066-gauss-hermite
+%Taken from Math works File-Exchange: https://www.mathworks.com/matlabcentral/fileexchange/8066-gauss-hermite, changed slightly
 %calculate Hermite polynomials
 
 p(1,1)=1;

@@ -53,6 +53,4 @@ figure
 loglog(yi,normH(yi),'r',yi,normL(yi),'b',yi,((2.*yi).^-1)./exp(3/2),'k');
 legend('Hermite','Legendre','(2M)^{-1}');
 
-toc
-
-        
+toc        
